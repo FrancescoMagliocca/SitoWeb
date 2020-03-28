@@ -1,0 +1,201 @@
+body{
+
+    margin: 0;
+    padding: 0;
+}
+#fullpage{
+     height: 100vh;
+     overflow: hidden;
+}
+#fullpage section{
+    height: 100vh;
+    overflow: hidden;
+   
+} 
+#fullpage section:nth-child(1)
+{
+ 
+  background-image: url(Images/esempiosfondofuoco.gif); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-color:#000080;*/
+} 
+#fullpage section:nth-child(2)
+{
+   background:rgba(117, 1, 1, 0.986); 
+}
+#fullpage section:nth-child(3)
+{
+   background-image: url(Images/Campo3.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#fullpage section:nth-child(4)
+{
+   background-image: url(Images/sfondo4pag.gif);
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow: hidden;
+}
+
+.Mionome{
+ text-align: center;
+ margin-top: 50px;
+ font-weight: 400;
+ font-style: oblique;
+ font-size: 50px;
+ color: rgb(235, 223, 226);
+}
+.fotome{
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+a:link{color: white;}
+a:visited{color:white;}
+a:hover{text-decoration:none; color: gold;}
+
+.didascaliafotodime{
+   color: white;
+   font-size: 30px;
+   text-align: center;
+   margin-bottom: 500px;
+}
+#intestazione2pag{
+   text-align: center;
+   color: white;
+   font-size: 40px;
+}
+
+
+.immagini2pag{
+   max-width: 1200px;
+   margin: auto;
+   overflow: auto;
+
+}
+.foto{
+   margin: 5px;
+   border: 3px rgb(167, 7, 7);
+   float: left;
+   width: 390px;
+}
+
+.foto img{
+   width: 100%;
+   height: auto;
+}
+
+.desc{
+   padding: 20px;
+   text-align: center;
+   color: white;
+   font-size: 17px;
+}
+#intestazione3pag{
+   text-align: center;
+   color: white;
+   font-size: 40px;
+}
+.sx, .dx{
+   width: 25%;
+   float: left;
+  
+}
+.middle{
+   width: 50%;
+   float: left;
+   color:white;
+   font-size: 28px;
+   font-family: 'Heebo', sans-serif;
+}
+.corpodellapag div{
+   padding: 1%;
+   box-sizing: border-box;
+   min-height: 500px;
+}
+.navbar{
+  list-style: none; 
+  position: static;
+}
+.navbar li{
+   display: inline-block;
+   padding: 0 15px;
+   text-transform: uppercase;
+}
+.navbar li a{
+   color: #fff;
+}
+.navbar li a:hover{
+   color: Red;
+}
+
+#intestazione4pag{
+   text-align: center;
+   color: white;
+   font-size: 40px;
+}
+.corpo4pag{
+   text-align: center;
+   color: white;
+}
+.tabella4{
+   margin-left: auto;
+   margin-right: auto;
+   color: white;
+   font-size: 17px;
+  border: 1px solid white;
+}
+
+table, th, td{
+   border:1px solid white;
+   border-collapse: collapse;
+}
+
+.Media{
+   padding: 8px;
+
+}
+.Media ul{
+   padding: 8px;
+   text-align: center;
+}
+.Media ul li{
+   margin: 5px;
+   list-style-type: none;
+   display: inline-block;
+}
+.Media li a{
+   color:white;
+}
+h3{
+   margin: 0;
+   padding: 0;
+   font-size: 10em;
+   
+   line-height: 0.8em;
+}
+
+h3 span{
+   position: relative;
+   text-transform: uppercase;
+   display: block;
+   
+}
+h3 span:nth-child(1):before{
+   content: '';
+   position: absolute;
+   top: calc(50% - 15px);
+   right: 0;
+   width: 50%;
+   height: 30px;
+   
+   
+   
+}
+
+.icons li{
+   font-size: 30px;
+
+}
